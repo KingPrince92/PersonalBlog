@@ -1,0 +1,11 @@
+.PostPage {
+  display: flex;
+  justify-content: center;
+}
+
+.PostPage ul {
+  padding: 0;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}

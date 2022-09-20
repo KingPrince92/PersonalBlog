@@ -1,0 +1,71 @@
+.Main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Main .twitter-box {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 400px;
+  height: 370px;
+  contain: content;
+  border-radius: 9px;
+  position: relative;
+  background-color: #9b5de5;
+  border-right: 20px solid #9b5de5;
+  border-top: 2px solid #9b5de5;
+}
+
+.Main .about-box {
+  text-align: start;
+  margin: 10px;
+  margin-top: 20px;
+  width: 420px;
+  height: 350px;
+  border-radius: 9px;
+  border-left: 20px solid #9b5de5;
+  border-bottom: 20px solid #9b5de5;
+  border-top: 2px solid #9b5de5;
+  background-color: #9b5de5;
+}
+.Main .main-text p {
+  box-sizing: border-box;
+  align-items: center;
+  padding: 50px;
+  margin: 0px;
+  background-color: #fcd9ff;
+  border-radius: 9px;
+  width: 420px;
+  height: 330px;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 926px) {
+  .Main {
+    justify-content: space-evenly;
+  }
+
+  .Main .twitter-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 250px;
+    border-bottom: 20px solid #9b5de5;
+  }
+
+  .Main .about-box {
+    width: 350px;
+    height: 180px;
+    text-align: start;
+    padding-bottom: 100px;
+  }
+}
+
+.Main .about-text {
+  word-wrap: normal;
+}
+
+.Main .main-text {
+  height: 100px;
+  width: 300px;
+}

@@ -1,0 +1,52 @@
+.Header {
+  background-color: #9b5de5;
+}
+
+.Header h1 {
+  margin: 0;
+  padding-left: 5px;
+}
+.Header p {
+  margin: 2px;
+  font-size: small;
+}
+
+.Header .header-info {
+  contain: content;
+  padding-left: 5px;
+}
+
+.Header .coding-languages {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 1px;
+  width: 100%;
+  line-height: 2px;
+}
+.Header .coding-languages li {
+  list-style-type: none;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: smaller;
+  margin-right: 0px;
+}
+
+.Header .socials {
+  margin-bottom: 10px;
+}
+.Header .socials a {
+  padding: 5px;
+  margin-right: 0;
+}
+.Header .socials a i {
+  font-size: x-large;
+  color: #fee440;
+}
+.Header .socials a i:hover {
+  font-size: x-large;
+  color: #00f5d4;
+}

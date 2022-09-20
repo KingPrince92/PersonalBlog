@@ -1,0 +1,29 @@
+.BlogPost {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.BlogPost .whole-post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.BlogPost .post-title {
+  margin: 5px 20px 2px 5px;
+}
+
+.BlogPost .post-date {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: xx-small;
+  color: dimgrey;
+}
+
+.BlogPost .post-content {
+  margin-left: 10px;
+}
