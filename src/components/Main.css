@@ -2,13 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 .Main .twitter-box {
   margin-bottom: 20px;
   margin-top: 20px;
-  width: 400px;
-  height: 360px;
+  width: 500px;
+  height: 460px;
   contain: content;
   border-radius: 9px;
   position: relative;
@@ -40,9 +42,10 @@
   height: 330px;
 }
 
-@media only screen and (min-width: 650px) and (max-width: 926px) {
+@media only screen and (min-width: 925px) and (max-width: 925px) {
   .Main {
-    justify-content: space-evenly;
+    justify-content: space-around;
+    min-height: 100vh;
   }
 
   .Main .twitter-box {

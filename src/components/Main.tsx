@@ -1,6 +1,7 @@
 import "./Main.css";
 
 const Main = () => {
+  console.log(window.innerWidth);
   return (
     <div className="Main">
       <div className="about-box">
@@ -22,8 +23,8 @@ const Main = () => {
       <div className="twitter-box">
         <a
           className="twitter-timeline"
-          data-width="400"
-          data-height="360"
+          data-width="500"
+          data-height="460"
           data-theme="dark"
           href="https://twitter.com/CatsKingPrince?ref_src=twsrc%5Etfw"
         >
