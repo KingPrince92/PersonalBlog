@@ -7,8 +7,7 @@ const Header = () => {
         Hey there - I'm Milo Prince <i className="fa-solid fa-cat"></i>
       </h1>
       <div className="header-info">
-        I'm a Frontend Web Developer | <i className="fa-solid fa-keyboard"></i>{" "}
-        :
+        I'm a Web Developer! | <i className="fa-solid fa-keyboard"></i> :
         <ul className="coding-languages">
           <li>HTML</li>
           <li>CSS</li>
